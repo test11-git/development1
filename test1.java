@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-
+//Test Cases
 public class test1 {
 	WebDriver driver;
 	@Test
@@ -13,6 +13,7 @@ public class test1 {
 		System.setProperty("webdriver.chrome.driver", "C:\\workspace\\drivernew\\chromedriver.exe");				
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com");	
+		
 		driver.quit();
 	}
 	@Test
